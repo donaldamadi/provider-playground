@@ -238,7 +238,7 @@ class _MessageHandlerState extends State<MessageHandler> {
             ElevatedButton(
               child: Center(child: Text('Notify')),
               onPressed: () async {
-                var serverKey = 'AAAATmwZ_JI:APA91bF0sODSVI_x5YZzAhQkhKx-bIucUEhOjC1UU313QdxYewSMcfJVL2Ykz8qqltUH4U41M1JQexa7CACY-k-m8FR4DQi7mOETn2qADp-2xYjvvkQtpiMRB0hq7FANyKR0q-bY3EJV';
+                var serverKey = 'server_key';
                 DocumentSnapshot ref = await db.collection('users').doc('dd0c6e48-f9f3-449f-8175-c90e2e358ebb').get();
                 print(ref['token']);
                 try {
